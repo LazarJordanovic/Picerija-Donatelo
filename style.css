@@ -1,0 +1,142 @@
+.navbar-nav li a{
+    color: brown;
+    font-size: 20px;
+}
+.nav-link a {
+    color: darkred;
+}
+.nav-item a:hover {
+    font-size: 22px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 5px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 8px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 8px 5px 1px rgba(0,0,0,0.75);
+}
+
+.slika {
+    width: 600px;
+    height: 600px;
+    border-radius: 15px;
+}
+.text {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.meni_pizza {
+    background-color: rgb(32, 30, 29);
+}
+.accordion-body h4 {
+    color: rgb(85, 35, 35);
+  
+}
+.text-center h1 {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: cursive;
+    letter-spacing: 2px;
+}
+.text-center p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: cursive;
+}
+.text-center h2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.navimg {
+    width: 120px;
+    height: 80px;
+    margin-right: 50px;
+    border-radius: 10px 100px / 120px;
+    box-shadow: 0px 8px 5px 1px rgba(143, 127, 127, 0.75);
+    -webkit-box-shadow: 0px 8px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 8px 5px 1px rgba(0,0,0,0.75);
+}
+nav {
+    margin-bottom: 50px;
+}
+.navbar-brand a:hover {
+    width: 130px;
+    height: 90px;
+    
+}
+.font {
+    font-family: cursive;
+}
+.accordion-body ul {
+    background-color: rgb(179, 157, 37);
+    width: 250px;
+    border-radius: 10px 100px / 120px;
+}
+.accordion-body ul li {
+    font-size: 17px;
+    font-weight: bold;
+}
+.location {
+    width: 80%;
+    margin: auto;
+}
+.lokacija h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+.text {
+    float: left;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+}
+#pica ul li{
+    font-size: 20px;
+    box-shadow: 0px 18px 15px 5px rgba(15, 15, 15, 0.75);
+}
+.pozadina {
+    background-image: url('img/vino.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+@media only screen and (max-width: 500px){
+    .navimg {
+        width: 60px;
+        height: 40px;
+        float: right;
+        margin-right: 0px;
+    }
+    .slika {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 30px;
+    }
+    .location {
+        
+        width: 320px;
+    }
+    #pica ul li {
+        margin-right: 0px;
+        box-shadow: 0px 5px 2px 1px rgba(15, 15, 15, 0.75);
+    }
+} 
+@media only screen and (max-width: 988px) {
+    .navimg {
+        float: right;
+        margin-right: 0px;
+        width: 90px;
+        height: 70px;
+    }
+    .slika {
+        width: 100%;
+        height: 400px;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .location {
+        width: 100%;
+    }
+}
